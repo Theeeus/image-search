@@ -17,12 +17,10 @@ For [Free Code Camp](http://freecodecamp.com) - [API Basejump: Image Search Abst
 ```
 https://arcane-wildwood-25174.herokuapp.com/search/pokemon
 ```
-
 2. Paginating through the results
 ```
 https://arcane-wildwood-25174.herokuapp.com/search/pokemon?offset=2
 ```
-
 3. Getting a list of recent searches
 ```
 https://arcane-wildwood-25174.herokuapp.com/latest/imagesearch
@@ -38,7 +36,6 @@ https://arcane-wildwood-25174.herokuapp.com/latest/imagesearch
 	"page link":"https://twitter.com/pokemon"
 }
 ```
-
 2. Recent searches
 ```javascript
 {
