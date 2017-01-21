@@ -14,14 +14,17 @@ For [Free Code Camp](http://freecodecamp.com) - [API Basejump: Image Search Abst
 ### Usage
 
 1. Searching for images
+
 	```
 	https://arcane-wildwood-25174.herokuapp.com/search/pokemon
 	```
 2. Paginating through the results
+
 	```
 	https://arcane-wildwood-25174.herokuapp.com/search/pokemon?offset=2
 	```
 3. Getting a list of recent searches
+
 	```
 	https://arcane-wildwood-25174.herokuapp.com/latest/imagesearch
 	```
@@ -29,6 +32,7 @@ For [Free Code Camp](http://freecodecamp.com) - [API Basejump: Image Search Abst
 ### Sample Output
 
 1. Search results
+
 	```javascript
 	{
 		"url":"https://pbs.twimg.com/profile_images/478947556760645632/IwdfeL3J_400x400.png",
@@ -37,6 +41,7 @@ For [Free Code Camp](http://freecodecamp.com) - [API Basejump: Image Search Abst
 	}
 	```
 2. Recent searches
+
 	```javascript
 	{
 		"query":"pokemon",
