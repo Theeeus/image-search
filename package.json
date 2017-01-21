@@ -1,0 +1,21 @@
+{
+  "name": "image-search",
+  "version": "1.0.0",
+  "description": "For [Free Code Camp](http://freecodecamp.com) - [API Basejump: Image Search Abstraction Layer](https://www.freecodecamp.com/challenges/image-search-abstraction-layer)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "google-images": "^2.0.0",
+    "moment": "^2.17.1",
+    "mongojs": "^2.4.0"
+  },
+  "engines": {
+    "node": "6.9.1"
+  }
+}
