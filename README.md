@@ -14,35 +14,35 @@ For [Free Code Camp](http://freecodecamp.com) - [API Basejump: Image Search Abst
 ### Usage
 
 1. Searching for images
-```
-https://arcane-wildwood-25174.herokuapp.com/search/pokemon
-```
+	```
+	https://arcane-wildwood-25174.herokuapp.com/search/pokemon
+	```
 2. Paginating through the results
-```
-https://arcane-wildwood-25174.herokuapp.com/search/pokemon?offset=2
-```
+	```
+	https://arcane-wildwood-25174.herokuapp.com/search/pokemon?offset=2
+	```
 3. Getting a list of recent searches
-```
-https://arcane-wildwood-25174.herokuapp.com/latest/imagesearch
-```
+	```
+	https://arcane-wildwood-25174.herokuapp.com/latest/imagesearch
+	```
 
 ### Sample Output
 
 1. Search results
-```javascript
-{
-	"url":"https://pbs.twimg.com/profile_images/478947556760645632/IwdfeL3J_400x400.png",
-	"description":"Pokémon",
-	"page link":"https://twitter.com/pokemon"
-}
-```
+	```javascript
+	{
+		"url":"https://pbs.twimg.com/profile_images/478947556760645632/IwdfeL3J_400x400.png",
+		"description":"Pokémon",
+		"page link":"https://twitter.com/pokemon"
+	}
+	```
 2. Recent searches
-```javascript
-{
-	"query":"pokemon",
-	"when":"January 21st, 2017 13:12"
-}
-```
+	```javascript
+	{
+		"query":"pokemon",
+		"when":"January 21st, 2017 13:12"
+	}
+	```
 
 ### Live Site
 [https://arcane-wildwood-25174.herokuapp.com](https://arcane-wildwood-25174.herokuapp.com)
