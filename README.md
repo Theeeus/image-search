@@ -1,7 +1,7 @@
 # API Basejump: Image Search Abstraction Layer
 
 
-For [Free Code Camp](http://freecodecamp.com) - [API Basejump: Image Search Abstraction Layer](https://www.freecodecamp.com/challenges/image-search-abstraction-layer)
+For [Free Code Camp](http://freecodecamp.com) - API Basejump: Image Search Abstraction Layer
 
 
 ### User Stories
@@ -16,17 +16,17 @@ For [Free Code Camp](http://freecodecamp.com) - [API Basejump: Image Search Abst
 1. Searching for images
 
 	```
-	https://arcane-wildwood-25174.herokuapp.com/search/pokemon
+	http://localhost:8000/search/pokemon
 	```
 2. Paginating through the results
 
 	```
-	https://arcane-wildwood-25174.herokuapp.com/search/pokemon?offset=2
+	http://localhost:8000/search/pokemon?offset=2
 	```
 3. Getting a list of recent searches
 
 	```
-	https://arcane-wildwood-25174.herokuapp.com/latest/imagesearch
+	http://localhost:8000/latest/imagesearch
 	```
 
 ### Sample Output
@@ -48,6 +48,3 @@ For [Free Code Camp](http://freecodecamp.com) - [API Basejump: Image Search Abst
 		"when":"January 21st, 2017 13:12"
 	}
 	```
-
-### Live Site
-[https://arcane-wildwood-25174.herokuapp.com](https://arcane-wildwood-25174.herokuapp.com)
